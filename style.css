@@ -1,0 +1,81 @@
+/* Reset */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fundo da página */
+body{
+background:#FCBA33;
+min-height:100vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+/* Header */
+header{
+width:100%;
+background:#25D366;
+padding:20px;
+text-align:center;
+color:white;
+}
+.logo{
+    font-size:25px;
+    font-weight: bold;
+    color: white;
+}
+
+.Conversor{
+    background:#FFFFFF;
+padding:30px;
+margin-top:40px;
+border-radius:10px;
+width:300px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Inputs */
+.Conversor input{
+width:100%;
+padding:10px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+/* Botão */
+.Conversor button{
+width:100%;
+padding:12px;
+background:#25D366;
+border:none;
+color:white;
+font-size:16px;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+}
+
+/* Hover botão */
+.Conversorsor button:hover{
+background:#128C7E;
+}
+.resultado{
+    margin-top: 20px;
+    font-size:18px;
+    font-weight: bold;
+    color:#333;
+}
+.footer-container{
+    margin:20px;
+       font-weight: bold;
+    background: white;
+    color: #075E54; /* verde escuro WhatsApp */
+    padding: 2px 6px;
+    border-radius: 4px;
+}
